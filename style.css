@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: monospace;
   font-size: 1.2em;
   background-color: azure;
   animation-name: colorfade;
@@ -7,7 +7,7 @@ body {
   animation-iteration-count: infinite;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4 {
   text-shadow: 2px 2px 0 blueviolet;
   animation-name: textshadow;
   animation-duration: 10s;
@@ -45,3 +45,74 @@ h1, h2, h3, h4, h5 {
   75% { text-shadow: -10px -10px 0 tomato; }
   100% { text-shadow: 5px 5px 0 blueviolet; }
 }
+
+.titCont{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 35%;
+}
+
+h1{
+  font-size: 2.5em;
+}
+
+article{
+  margin: 0.5em 2em 0.5em 2em;
+}
+
+h2{
+  margin-bottom: 1.5em;
+}
+
+p{
+  margin-left: 2.5%;
+}
+
+.call{
+  margin: 2em 0 2.5em 0;
+}
+
+ul{
+  display: flex;
+  flex-direction: column; 
+  margin: 1.5em 0 2em 3%;
+}
+
+.container{
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0.5em 0 0.5em 0;
+}
+
+.tit{
+  width: 15%;
+  font-weight: 900;
+  text-decoration: underline;
+  color: rgb(153, 0, 255);
+  cursor: pointer;
+  line-height: 0.8em;
+}
+
+.cont{
+  display: none;
+}
+
+.contShow{
+  display: inline-block;
+  font-family: monospace;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+span{
+  font-size: 0.8em;
+  margin: 4em 2em 2em 2em;
+}
+
+
