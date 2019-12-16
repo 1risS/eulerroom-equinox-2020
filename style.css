@@ -52,6 +52,7 @@ h1, h2, h3, h4 {
   flex-direction: column;
   justify-content: center;
   margin-left: 35%;
+  margin-top: 3em;
 }
 
 h1{
@@ -60,6 +61,22 @@ h1{
 
 article{
   margin: 0.5em 2em 0.5em 2em;
+}
+
+a{
+  font-weight: 800;
+  text-decoration: underline;
+  color: rgb(197, 0, 0);
+}
+
+.wilc{
+  font-weight: 900;
+  font-size: 2em;
+  margin-left: 1em;
+}
+.lctl{
+  margin: 1.5em 2em 2em 4%;
+  line-height: 1.1em;
 }
 
 h2{
@@ -72,6 +89,11 @@ p{
 
 .call{
   margin: 2em 0 2.5em 0;
+}
+
+.call p {
+  font-weight: 300;
+  font-size: 1em;
 }
 
 ul{
