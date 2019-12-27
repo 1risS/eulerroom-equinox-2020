@@ -127,6 +127,11 @@ ul{
   font-family: monospace;
 }
 
+.form{
+  margin-left: 3%;
+  margin-bottom: 2em;;
+}
+
 footer{
   display: flex;
   align-items: center;
