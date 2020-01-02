@@ -6,91 +6,96 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="language-list">
+    <ul>
+      <li class="selected" data-key="en"><a href="/?lang=en">en</a></li>
+      <!--<li data-key="es"><a href="/?lang=es">es</a></li>-->
+      <li data-key="pt"><a href="/?lang=pt">pt</a></li>
+    </ul>
+  </div>
   <section>
     <div class="titCont">
-      <h1>Eulerroom Equinox 2020</h1>
-      <p>March Equinox (3:50am Fri 20th March, and surrounding days)</p>
+      <h1 data-i18n="header.title">Eulerroom Equinox 2020</h1>
+      <p data-i18n="header.subtitle">March Equinox (3:50am Fri 20th March, and surrounding days)</p>
     </div>
-    <p class="wilc">
+    <p class="wilc" data-i18n="terms.title">
       Live Coding? TOPLAP?
     </p>
-    <p class="lctl">
-      <b>Live Coding</b> is an artistic technique by which music or visuals are generated and modified by writing lines 
-      of code in different programming languages, giving instructions to the sound or video cards in the computers 
-      where the script is ejecuted.
-      You can check all the existing languages <a href="https://github.com/toplap/awesome-livecoding" target="blank">here</a>.
+    <p class="lctl" data-i18n="[html]terms.livecoding">
+      <b>Live Coding</b> is an artistic technique by which music or visuals are generated and modified by writing lines of code in different programming languages, giving instructions to the sound or video cards in the computers where the script is ejecuted.  You can check all the existing languages <a href="https://github.com/toplap/awesome-livecoding" target="blank">here</a>.
     </p>
-    <p class="lctl">
-      <b>TOPLAP</b>  stands for "Temporary Organisation for the Proliferation of Live Art Programming" or 
-      "Transdimensional Organisation for the Parsimony of Live Art Programming" but if you want 
-      further info you better go <a href="https://toplap.org/about/" target="blank">here</a>.
-
+    <p class="lctl" data-i18n="[html]terms.toplap">
+      <b>TOPLAP</b> stands for "Temporary Organisation for the Proliferation of Live Art Programming" or "Transdimensional Organisation for the Parsimony of Live Art Programming" but if you want further info you better go <a href="https://toplap.org/about/" target="blank">here</a>.
     </p>
     <article>
       <div class="call">
-        <h2>CALL FOR CONTRIBUTIONS AND EVENTS</h2>
-        <p>An equinox is a day when the whole world gets 12 hours of sunlight. The March equinox marks the beginning of autumn in the southern hemisphere and spring in the northern hemisphere.</p>
-        <p>For March Equinox 2020 we will celebrate sixteen years of the TOPLAP live coding community with a nonstop online stream, over 20th-22nd March.</p>
-        <p>If you want to contribute to the stream, you can do that either as an individual from your home/studio/workplace/local cafe etc, or from an organised event.</p>
+        <h2 data-i18n="calls.h2">CALL FOR CONTRIBUTIONS AND EVENTS</h2>
+        <p data-i18n="calls.p1">An equinox is a day when the whole world gets 12 hours of sunlight. The March equinox marks the beginning of autumn in the southern hemisphere and spring in the northern hemisphere.</p>
+        <p data-i18n="calls.p2">For March Equinox 2020 we will celebrate sixteen years of the TOPLAP live coding community with a nonstop online stream, over 20th-22nd March.</p>
+        <p data-i18n="calls.p3">If you want to contribute to the stream, you can do that either as an individual from your home/studio/workplace/local cafe etc, or from an organised event.</p>
       </div>
       <div class="callList">
-        <h3>This is an open call for:</h3>
+        <h3 data-i18n="calls.h3">This is an open call for:</h3>
         <ul>
           <li>
             <div class="container">
-              <div class="tit">Local Events</div> 
-              <div class="cont"> Want to organise an algorave, symposium, live art action, roundtable discussion or 
-                something else in your locality? Want to stream it to the worldwide live coding community? 
+              <div class="tit" data-i18n="calls.local-events.title">Local Events</div>
+              <div class="cont" data-i18n="calls.local-events.desc"> Want to organise an algorave, symposium, live art action, roundtable discussion or
+                something else in your locality? Want to stream it to the worldwide live coding community?
                 </div>
               </div>
           </li>
           <li>
             <div class="container">
-              <div class="tit">Streamed Events/<br></br>Networked performance</div>  
-              <div class="cont">Or perhaps an online event, using collaborative software? </div>
+              <div class="tit" data-i18n="calls.streamed-events.title">Streamed Events/<br></br>Networked performance</div>
+              <div class="cont" data-i18n="calls.streamed-events.desc">Or perhaps an online event, using collaborative software? </div>
             </div>
           </li>
           <li>
             <div class="container">
-              <div class="tit">Talks/<br></br>Demos</div>  
-              <div class="cont">Want to show something old or new, relating to live coding? 
+              <div class="tit" data-i18n="calls.talks-demos.title">Talks/<br></br>Demos</div>
+              <div class="cont" data-i18n="calls.talks-demos.desc">Want to show something old or new, relating to live coding?
                 You can speak in whatever language you prefer.</div>
             </div>
           </li>
           <li>
             <div class="container">
-              <div class="tit"> Performances </div>
-              <div class="cont">Want to share your live coding with the world? 
+              <div class="tit" data-i18n="calls.performances.title"> Performances </div>
+              <div class="cont" data-i18n="calls.performances.desc">Want to share your live coding with the world?
                 Contributions from people new to the scene are welcome.</div>
             </div>
           </li>
           <li>
             <div class="container">
-              <div class="tit">Reviewers </div>
-              <div class="cont">Let's form a diverse team of people giving constructive comments on submissions! </div>
+              <div class="tit" data-i18n="calls.reviewers.title">Reviewers </div>
+              <div class="cont" data-i18n="calls.reviewers.desc">Let's form a diverse team of people giving constructive comments on submissions! </div>
             </div>
           </li>
           <li>
             <div class="container">
-              <div class="tit">Volunteers</div>
-              <div class="cont"> Want to help out? For example with translation of texts (including this call!), 
-            transcription / translation of talks, editing of videos, sharing news, and general organising... 
+              <div class="tit" data-i18n="calls.volunteers.title">Volunteers</div>
+              <div class="cont" data-i18n="calls.volunteers.desc"> Want to help out? For example with translation of texts (including this call!),
+            transcription / translation of talks, editing of videos, sharing news, and general organising...
             We need you to make this happen!</div>
             </div>
           </li>
         </ul>
-        <div class="form"> Please, fill <a href="https://forms.gle/ovXJohTqV4ZnX96j9" target="blank">this form</a> according to your interests.</div>
+        <div class="form" data-i18n="[html]form">Please, fill <a href="https://forms.gle/ovXJohTqV4ZnX96j9" target="blank">this form</a> according to your interests.</div>
       </div>
     </article>
-      <p>No proposal will be rejected on the basis of merit. Proposals may be rejected in certain circumstances, for example for being a) against the code of conduct, b) completely unrelated to the field of live coding. On the second point, proposals which stretch the definition of live coding are very welcome.</p>
+      <p data-i18n="proposal">No proposal will be rejected on the basis of merit. Proposals may be rejected in certain circumstances, for example for being a) against the code of conduct, b) completely unrelated to the field of live coding. On the second point, proposals which stretch the definition of live coding are very welcome.</p>
       <footer>
-        <span>
+        <span data-i18n="footer.disclaimer">
           Eulerroom Equinox is a volunteer-run initiative without funding, so cannot help with expenses or other costs. Local event organisers are welcome to apply for local funding sources.
         </span>
-        <h5>site made w &#9829 by CLiC (Colectivo de Live Coders)</h5>
+        <h5 data-i18n="[html]footer.made-by">site made w &#9829 by CLiC (Colectivo de Live Coders)</h5>
       </footer>
   </section>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/i18next@19.0.2/dist/umd/i18next.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/i18next-xhr-backend@3.2.2/i18nextXHRBackend.min.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/i18next-browser-languagedetector@4.0.1/i18nextBrowserLanguageDetector.min.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/jquery-i18next@1.2.1/jquery-i18next.min.js"></script>
   <script src="main.js"></script>
 </body>
 </html>

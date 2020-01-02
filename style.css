@@ -53,6 +53,7 @@ h1, h2, h3, h4 {
   justify-content: center;
   margin-left: 35%;
   margin-top: 3em;
+	text-align: center;
 }
 
 h1{
@@ -142,4 +143,33 @@ span{
   margin: 4em 2em 2em 2em;
 }
 
-
+.language-list {
+  position: relative;
+  overflow: hidden;
+  width: 160px;
+  float: right;
+}
+.language-list ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  margin-left: -1px;
+  list-style: none;
+}
+.language-list li {
+  flex-grow: 1;
+  flex-basis: auto;
+  margin: .25em 0;
+  padding: 0 1em;
+  text-align: center;
+  border-left: 2px solid #ccc;
+}
+.language-list li.selected {
+  background-color: #ddd;
+}
+.language-list li:last-child {
+  border-right: 2px solid #ccc;
+}

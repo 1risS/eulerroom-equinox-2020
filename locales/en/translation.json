@@ -1,0 +1,48 @@
+{
+  "header": {
+    "title": "Eulerroom Equinox 2020",
+    "subtitle": "March Equinox (3:50am Fri 20th March, and surrounding days)"
+  },
+  "terms": {
+    "title": "Live Coding? TOPLAP?",
+    "livecoding": "<b>Live Coding</b> is an artistic technique by which music or visuals are generated and modified by writing lines of code in different programming languages, giving instructions to the sound or video cards in the computers where the script is ejecuted. You can check all the existing languages <a href=\"https://github.com/toplap/awesome-livecoding\" target=\"blank\">here</a>.",
+    "toplap": "<b>TOPLAP</b>  stands for \"Temporary Organisation for the Proliferation of Live Art Programming\" or \"Transdimensional Organisation for the Parsimony of Live Art Programming\" but if you want further info you better go <a href=\"https://toplap.org/about/\" target=\"blank\">here</a>."
+  },
+  "calls": {
+    "h2": "CALL FOR CONTRIBUTIONS AND EVENTS",
+    "p1": "An equinox is a day when the whole world gets 12 hours of sunlight. The March equinox marks the beginning of autumn in the southern hemisphere and spring in the northern hemisphere.",
+    "p2": "For March Equinox 2020 we will celebrate sixteen years of the TOPLAP live coding community with a nonstop online stream, over 20th-22nd March.",
+    "p3": "If you want to contribute to the stream, you can do that either as an individual from your home/studio/workplace/local cafe etc, or from an organised event.",
+    "h3": "This is an open call for:",
+    "local-events": {
+      "title": "Local Events",
+      "desc": "Want to organise an algorave, symposium, live art action, roundtable discussion or something else in your locality? Want to stream it to the worldwide live coding community?"
+    },
+    "streamed-events": {
+      "title": "Streamed Events/<br></br>Networked performance",
+      "desc": "Or perhaps an online event, using collaborative software?"
+    },
+    "talks-demos": {
+      "title": "Talks/<br></br>Demos",
+      "desc": "Want to show something old or new, relating to live coding? You can speak in whatever language you prefer."
+    },
+    "performances": {
+      "title": "Talks/<br></br>Demos",
+      "desc": "Want to share your live coding with the world? Contributions from people new to the scene are welcome."
+    },
+    "reviewers": {
+      "title": "Reviewers",
+      "desc": "Let's form a diverse team of people giving constructive comments on submissions!"
+    },
+    "volunteers": {
+      "title": "Volunteers",
+      "desc": "Want to help out? For example with translation of texts (including this call!), transcription / translation of talks, editing of videos, sharing news, and general organising... We need you to make this happen!"
+    }
+  },
+  "form": "Please, fill <a href=\"https://forms.gle/ovXJohTqV4ZnX96j9\" target=\"blank\">this form</a> according to your interests.",
+  "proposal": "No proposal will be rejected on the basis of merit. Proposals may be rejected in certain circumstances, for example for being a) against the code of conduct, b) completely unrelated to the field of live coding. On the second point, proposals which stretch the definition of live coding are very welcome.",
+  "footer": {
+    "disclaimer": "Eulerroom Equinox is a volunteer-run initiative without funding, so cannot help with expenses or other costs. Local event organisers are welcome to apply for local funding sources.",
+    "made-by": "site made w &#9829 by CLiC (Colectivo de Live Coders)"
+  }
+}
