@@ -5,8 +5,8 @@
   },
   "terms": {
     "title": "Live Coding? TOPLAP?",
-    "livecoding": "<b>Live Coding</b> é uma técnica artística pela qual a música ou o visual são gerados e modificados escrevendo linhas de código em diferentes linguagens de programação, fornecendo instruções para as placas de som ou vídeo nos computadores em que o script é ejetado. Você pode verificar todos os idiomas existentes <a href=\"https://github.com/toplap/awesome-livecoding\" target=\"blank\">aqui</a>.",
-    "toplap": "<b>TOPLAP</b> TOPLAP significa \"Organização temporária para a proliferação de programação de arte ao vivo\" ou \"Organização transdimensional para parcimônia de programação de arte ao vivo\", mas se você quiser mais informações, é melhor ir <a href=\"https://toplap.org/about/\" target=\"blank\">aqui</a>."
+    "livecoding": "<b>Live Coding</b> é uma técnica artística pela qual a música ou o visual são gerados e modificados escrevendo linhas de código em diferentes linguagens de programação, fornecendo instruções para as dispositivos de som ou vídeo em computadores onde são executados. Você pode verificar todas as linguagens de programação para live coding <a href=\"https://github.com/toplap/awesome-livecoding\" target=\"blank\">aqui</a>.",
+    "toplap": "<b>TOPLAP</b> é uma sigla para \"Temporary Organisation for the Proliferation of Live Art Programming\" (Organização temporária para a proliferação de programação artística ao vivo) ou \"Organização transdimensional para parcimônia de programação de arte ao vivo\", mas se você quiser mais informações, é melhor ir <a href=\"https://toplap.org/about/\" target=\"blank\">aqui</a>."
   },
   "calls": {
     "h2": "CHAMADA DE CONTRIBUIÇÕES E EVENTOS",
@@ -40,7 +40,7 @@
     }
   },
   "form": "Por favor, preencha <a href=\"https://forms.gle/ovXJohTqV4ZnX96j9\" target=\"blank\">este formulário</a> de acordo com seus interesses.",
-  "proposal": "Todas as propostas serão revisadas por pares por membros da comunidade, que poderão optar por permanecerem anônimos. Nenhuma proposta será rejeitada com base no mérito. Apenas algumas determinadas circunstâncias poderão rejeitar uma proposta, por exemplo se a) infringir o código de conduta, b) for completamente não-relacionada a área de live coding. No segundo ponto, propostas que ampliem o conceito e definição de live coding serão muito bem-vindas.",
+  "proposal": "Todas as propostas serão revisadas em pares por membros da comunidade, que poderão optar por permanecerem anônimos. Nenhuma proposta será rejeitada com base no mérito. Apenas algumas determinadas circunstâncias poderão rejeitar uma proposta, por exemplo se a) infringir o código de conduta ou b) for completamente não-relacionada a área de live coding. No segundo ponto, propostas que ampliem o conceito e a definição de live coding serão muito bem-vindas.",
   "footer": {
     "disclaimer": "O Equinócio Eulerroom (Eulerroom Equinox) é uma iniciativa voluntária organizada sem nenhum financiamento, portanto, não possui capacidade de ajudar os participantes ou voluntários com despesas e outros custos. Os organizadores de eventos locais podem solicitar fontes de financiamento local.",
     "made-by": "site feito com &#9829 por CLiC (Colectivo de Live Coders)"
