@@ -17,6 +17,7 @@ $(function() {
   // i18next options
   var i18nextOpts = {
     fallbackLng: 'en',
+    backend: { loadPath: 'locales/{{lng}}/{{ns}}.json' }
   };
 
   // Get language from query string
