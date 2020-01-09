@@ -186,15 +186,18 @@ span{
 .tit1{
   font-size: 1.5em;
   text-align: center;
+  margin: 0.9em 1em 1em 1em;
 }
 
 .tit2{
   font-size: 1em;
   text-align: center;
+  margin-bottom: 2.5em;
 }
 
 .tit3{
   font-size: 1em;
+  margin-left: 0.7em;
 }
 
 .ocContainer .desc1{
@@ -203,10 +206,13 @@ span{
 
 .ocContainer .participant{
   font-size: 0.7em;
-  margin-left: 1em;
+  margin-left: 1.3em;
 }
 
 .ocContainer  p{
   font-size: 0.7em;
 }
 
+.notconfirmed{
+  display: none;
+}
