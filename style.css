@@ -173,3 +173,40 @@ span{
 .language-list li:last-child {
   border-right: 2px solid #ccc;
 }
+
+.ocContainer{
+  margin: 3em 5em 5em 5em;
+  padding: 1.5em 2em 2em 1.5em;
+  border-style: double;  
+  animation-name: colorfade;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+.tit1{
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.tit2{
+  font-size: 1em;
+  text-align: center;
+}
+
+.tit3{
+  font-size: 1em;
+}
+
+.ocContainer .desc1{
+  font-size: 0.8em;
+}
+
+.ocContainer .participant{
+  font-size: 0.7em;
+  margin-left: 1em;
+}
+
+.ocContainer  p{
+  font-size: 0.7em;
+}
+
