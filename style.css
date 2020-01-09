@@ -56,6 +56,10 @@ h1, h2, h3, h4 {
 	text-align: center;
 }
 
+.titCont p{
+  margin-top: 0em;
+}
+
 h1{
   font-size: 2.5em;
 }
