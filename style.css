@@ -180,7 +180,7 @@ span{
 
 .ocContainer{
   margin: 3em 5em 5em 5em;
-  padding: 1.5em 2em 2em 1.5em;
+  padding: 1.5em 2em 3em 1em;
   border-style: double;  
   animation-name: colorfade;
   animation-duration: 15s;
@@ -219,4 +219,8 @@ span{
 
 .notconfirmed{
   display: none;
+}
+
+.partContainer{
+  display: none
 }
