@@ -21,12 +21,11 @@ $(function() {
   };
 
   // Get language from query string
-  var lang = params['lang'];
-  if (lang) {
-    i18nextOpts['lng'] = lang;
-    $('.language-list li[data-key="en"]').removeClass("selected");
-    $('.language-list li[data-key="' + lang + '"]').addClass("selected");
-  }
+  var lang = params['lang'] || 'en';
+
+  // Mark language button as active for current language
+  i18nextOpts['lng'] = lang;
+  $('.language-list li[data-key="' + lang + '"]').addClass("selected");
 
   console.log(i18nextOpts);
 
