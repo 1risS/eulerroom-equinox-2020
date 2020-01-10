@@ -4,6 +4,7 @@
   "description": "Source code of the \"Eulerroom Equinox 2020\" website made in plain HTML as we used to do in the past.",
   "main": "main.js",
   "scripts": {
+    "update-locales": "yarn gulp i18next",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
