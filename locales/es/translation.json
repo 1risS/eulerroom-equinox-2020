@@ -3,6 +3,11 @@
     "title": "Eulerroom Equinox 2020",
     "subtitle": "Equinoccio de marzo (3:50 am Viernes 20 de marzo y los días alrededor)"
   },
+  "pre_event": {
+    "title": "PRE-EVENTO: 29 de Febrero",
+    "subtitle": "Panel Algomech sobre Cultura Distribuida",
+    "desc": "Este panel explorará el pasado, el presente y el futuro de los eventos distribuidos, teniendo en cuenta las aportaciones de artistas, científicos y activistas. Exploraremos formas de hacer uso de Internet para conectar a las comunidades, crear eventos internacionales que sean inclusivos, diversos y promuevan el intercambio cultural. Esta discusión tendrá como telón de fondo el colapso ecológico, mientras busca asumir el desafío de crear nuevos espacios para el intercambio cultural. Se cerrará con una actuación internacional de miembros de la comunidad de codificación en vivo en Argentina, Brasil, Indonesia y más."
+  },
   "terms": {
     "title": "¿Programación en vivo? ¿TOPLAP?",
     "livecoding": "El <b>live coding</b> es una técnica artística en la cual se genera y modifica tanto música como visuales escribiendo lineas de código en diferentes lenguajes de programación. Dando instrucciones a las tarjetas gráficas y de sonido de las computadoras en las que se ejecutan los programas. Puedes ver los lenguajes existentes para tal fin <a href=\"https://github.com/toplap/awesome-livecoding\" target=\"blank\">acá</a>.",

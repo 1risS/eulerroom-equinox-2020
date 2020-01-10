@@ -3,6 +3,11 @@
     "title": "Eulerroom Equinox 2020",
     "subtitle": "March Equinox (3:50am Fri 20th March, and surrounding days)"
   },
+  "pre_event": {
+    "title": "PRE-EVENT: 29th February",
+    "subtitle": "Algomech Panel on Distributed Culture",
+    "desc": "This panel will explore the past, present and future of distributed events, taking input from artists, scientists and activists. We will explore ways of making use of the internet to connect communities, to create international events that are inclusive, diverse and promote cultural exchange. This discussion will be against the backdrop of ecological breakdown, while looking to take on the challenge of making new spaces for cultural exchange.  It will close with an international performance from members of the live coding community in Argentina, Brasil, Indonesia and more."
+  },
   "terms": {
     "title": "Live Coding? TOPLAP?",
     "livecoding": "<b>Live Coding</b> is an artistic technique by which music or visuals are generated and modified by writing lines of code in different programming languages, giving instructions to the sound or video cards in the computers where the script is ejecuted. You can check all the existing languages <a href=\"https://github.com/toplap/awesome-livecoding\" target=\"blank\">here</a>.",
