@@ -44,7 +44,7 @@
       "desc": "Want to help out? For example with translation of texts (including this call!), transcription / translation of talks, editing of videos, sharing news, and general organising... We need you to make this happen!"
     }
   },
-  "form": "If you are an <b>organiser</b>, please, fill <a href=\"https://forms.gle/ojdqDGc3q8mGkQaH9\" target=\"blank\">this form</a> or if you are an <b>streamer</b>, please, fill <a href=\"https://forms.gle/PeYjJcZGFKPhYc1j8\" target=\"blank\">this form</a>.",
+  "form": "If you are an <b>organiser</b>, please, fill <a href=\"https://forms.gle/ojdqDGc3q8mGkQaH9\" target=\"blank\">this form</a> or if you are a <b>streamer</b>, please, fill <a href=\"https://forms.gle/PeYjJcZGFKPhYc1j8\" target=\"blank\">this form</a>.",
   "proposal": "No proposal will be rejected on the basis of merit. Proposals may be rejected in certain circumstances, for example for being a) against the code of conduct, b) completely unrelated to the field of live coding. On the second point, proposals which stretch the definition of live coding are very welcome.",
   "footer": {
     "disclaimer": "Eulerroom Equinox is a volunteer-run initiative without funding, so cannot help with expenses or other costs. Local event organisers are welcome to apply for local funding sources.",
