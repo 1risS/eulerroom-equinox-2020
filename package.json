@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/1risS/eulerroom-equinox-2020#readme",
   "devDependencies": {
+    "gulp": "^4.0.2",
     "i18next-scanner": "^2.10.3"
   }
 }
