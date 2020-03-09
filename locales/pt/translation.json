@@ -3,9 +3,13 @@
     "title": "Equinócio Eulerroom 2020",
     "subtitle": "Equinócio de Março (Sex, 20 de Março 3:50, e dias seguintes)"
   },
+  "schedule": {
+    "title": "Cronograma"
+  },
   "pre_event": {
     "title": "PRÉ-EVENTO: 29 de fevereiro",
     "subtitle": "Painel Algomech sobre Cultura Distribuída",
+    "link": "MAIS INFORMAÇÕES <a href=\"https://algomech.com/distcult/\" target=\"_blank\">AQUI</a>",
     "desc": "Este painel explorará o passado, presente e futuro dos eventos distribuídos, recebendo contribuições de artistas, cientistas e ativistas. Exploraremos maneiras de fazer uso da Internet para conectar comunidades, criar eventos internacionais que sejam inclusivos, diversos e promovam o intercâmbio cultural. Essa discussão terá como pano de fundo o colapso ecológico, ao mesmo tempo em que se aceita o desafio de criar novos espaços para o intercâmbio cultural. Ele será encerrado com uma apresentação internacional de membros da comunidade de codificação ao vivo na Argentina, Brasil, Indonésia e muito mais."
   },
   "terms": {
