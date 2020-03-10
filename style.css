@@ -8,10 +8,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-  text-shadow: 2px 2px 0 blueviolet;
-  animation-name: textshadow;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
+  text-shadow: 2px 2px 0 violet;
 }
 
 @keyframes colorfade {
@@ -36,14 +33,6 @@ h1, h2, h3, h4 {
   090% { background-color: beige; }
   095% { background-color: aliceblue; }
   100% { background-color: azure; }
-}
-
-@keyframes textshadow {
-  00% { text-shadow: 5px 5px 0 blueviolet; }
-  25% { text-shadow: 10px 10px 0 tomato; }
-  50% { text-shadow: 15px 15px 0 teal; }
-  75% { text-shadow: -10px -10px 0 tomato; }
-  100% { text-shadow: 5px 5px 0 blueviolet; }
 }
 
 .titCont{
