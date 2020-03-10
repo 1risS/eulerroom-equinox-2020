@@ -3,9 +3,13 @@
     "title": "Eulerroom Equinox 2020",
     "subtitle": "March Equinox (3:50am Fri 20th March, and surrounding days)"
   },
+  "schedule": {
+    "title": "Schedule"
+  },
   "pre_event": {
     "title": "PRE-EVENT: 29th February",
     "subtitle": "Algomech Panel on Distributed Culture",
+    "link": "FURTHER INFO <a href=\"https://algomech.com/distcult/\" target=\"_blank\">HERE</a>",
     "desc": "This panel will explore the past, present and future of distributed events, taking input from artists, scientists and activists. We will explore ways of making use of the internet to connect communities, to create international events that are inclusive, diverse and promote cultural exchange. This discussion will be against the backdrop of ecological breakdown, while looking to take on the challenge of making new spaces for cultural exchange.  It will close with an international performance from members of the live coding community in Argentina, Brasil, Indonesia and more."
   },
   "terms": {
