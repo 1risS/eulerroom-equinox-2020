@@ -17,6 +17,11 @@
     "livecoding": "<b>Live Coding</b> is an artistic technique by which music or visuals are generated and modified by writing lines of code in different programming languages, giving instructions to the sound or video cards in the computers where the script is ejecuted. You can check all the existing languages <a href=\"https://github.com/toplap/awesome-livecoding\" target=\"blank\">here</a>.",
     "toplap": "<b>TOPLAP</b>  stands for \"Temporary Organisation for the Proliferation of Live Art Programming\" or \"Transdimensional Organisation for the Parsimony of Live Art Programming\" but if you want further info you better go <a href=\"https://toplap.org/about/\" target=\"blank\">here</a>."
   },
+  "watch": {
+      "h2": "Watch live!",
+      "range": "Live between <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=%20TOPLAP%20(Internet)%20-%20eulerroom%20equinox&iso=20200318T2330&p1=%3A&am=30\">23:30 GMT 18/03/2020</a> and
+<a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=%20livecodenyc%20algorave%20/%20Ulysses%20Popple%20-%20eulerroom%20equinox&iso=20200323T0100&p1=%3A&am=30\">01:30 GMT 23/03/2020</a>:"
+  },
   "calls": {
     "h2": "CALL FOR CONTRIBUTIONS AND EVENTS",
     "p1": "An equinox is a day when the whole world gets 12 hours of sunlight. The March equinox marks the beginning of autumn in the southern hemisphere and spring in the northern hemisphere.",
