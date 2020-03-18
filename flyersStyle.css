@@ -45,6 +45,12 @@ body {
     }
   }
 
+  @media only screen and (min-width: 430px) {
+      #flyerRight .flyerContainer{
+          display: none;
+      }
+  }
+
   .flyerContainer{
     display: flex;
     align-items: center;
