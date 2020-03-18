@@ -85,23 +85,17 @@ a{
 
 .logo{
     display: inherit;
-    margin-top:1em;
+    margin-top: -60px;
 }
 
 .buttonContainer{
     display:inherit;
     width: 40%;
-    margin-top: 2em;
+    margin-top: -30px;
+    margin-bottom: 80px;;
 }
 
-/* span{
-    text-shadow: 2px 2px 0 violet;
-    font-family: monospace; 
-    font-family: monospace;
-    text-align: center;
-    font-size: 1.5em;
-    padding: 0.5em 0.5em 0.5em 0.5em;
-  } */
+
 
 .button{
     display: flex;
@@ -127,4 +121,8 @@ a.button{
     text-align: center;
     font-size: 1.5em;
     padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.footer{
+  margin-top: 1em;
 }
