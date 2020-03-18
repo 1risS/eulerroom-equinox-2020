@@ -1,0 +1,92 @@
+body {
+    font-family: monospace;
+    font-size: 1.2em;
+    background-color: azure;
+    animation-name: colorfade;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes colorfade {
+    000% { background-color: azure; }
+    005% { background-color: beige; }
+    010% { background-color: aliceblue; }
+    015% { background-color: cornsilk; }
+    020% { background-color: floralwhite; }
+    025% { background-color: ghostwhite; }
+    030% { background-color: honeydew; }
+    035% { background-color: ivory; }
+    040% { background-color: lavenderblush; }
+    045% { background-color: lightcyan; }
+    050% { background-color: lightyellow; }
+    055% { background-color: linen; }
+    060% { background-color: mintcream; }
+    065% { background-color: mistyrose; }
+    070% { background-color: oldlace; }
+    075% { background-color: seashell; }
+    080% { background-color: snow; }
+    085% { background-color: whitesmoke; }
+    090% { background-color: beige; }
+    095% { background-color: aliceblue; }
+    100% { background-color: azure; }
+  }
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flyerContainer{
+    display: flex;
+  }
+
+  .creator{
+    display: inherit;   
+    text-align: center;
+    align-self: center;
+}
+
+.creator p{
+    font-size: 0.8em;
+}
+
+a{
+    font-weight: 800;
+    text-decoration: underline;
+    color: rgb(197, 0, 0);
+  }
+
+.doorContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+}
+
+.logo{
+    display: inherit;
+}
+
+.buttonContainer{
+    display:inherit;
+    width: 40%
+}
+
+span{
+    text-shadow: 2px 2px 0 violet;
+    font-family: monospace; 
+    font-family: monospace;
+    text-align: center;
+    font-size: 3.5em;
+  }
+
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+    animation-name: colorfade;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    width: 100%;  
+}
