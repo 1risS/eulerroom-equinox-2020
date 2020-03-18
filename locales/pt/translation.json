@@ -18,7 +18,7 @@
     "toplap": "<b>TOPLAP</b> é uma sigla para \"Temporary Organisation for the Proliferation of Live Art Programming\" (Organização temporária para a proliferação de programação artística ao vivo) ou \"Organização transdimensional para parcimônia de programação de arte ao vivo\", mas se você quiser mais informações, é melhor ir <a href=\"https://toplap.org/about/\" target=\"blank\">aqui</a>."
   },
   "watch": {
-      "h2": "Assista ao vivo!",
+      "title": "Assista ao vivo!",
       "range": "Entre <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=%20TOPLAP%20(Internet)%20-%20eulerroom%20equinox&iso=20200318T2330&p1=%3A&am=30\">23:30 GMT del 18/03/2020</a> e <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=%20livecodenyc%20algorave%20/%20Ulysses%20Popple%20-%20eulerroom%20equinox&iso=20200323T0100&p1=%3A&am=30\">01:30 GMT del 23/03/2020</a>:"
   },
   "calls": {
