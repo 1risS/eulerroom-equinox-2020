@@ -38,12 +38,17 @@ body {
 
   .flyerContainer{
     display: flex;
+    align-items: center;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 
   .creator{
     display: inherit;   
     text-align: center;
     align-self: center;
+    margin-top: 5em;
 }
 
 .creator p{
@@ -65,20 +70,23 @@ a{
 
 .logo{
     display: inherit;
+    margin-top:1em;
 }
 
 .buttonContainer{
     display:inherit;
-    width: 40%
+    width: 40%;
+    margin-top: 2em;
 }
 
-span{
+/* span{
     text-shadow: 2px 2px 0 violet;
     font-family: monospace; 
     font-family: monospace;
     text-align: center;
-    font-size: 3.5em;
-  }
+    font-size: 1.5em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+  } */
 
 .button{
     display: flex;
@@ -89,4 +97,19 @@ span{
     animation-duration: 10s;
     animation-iteration-count: infinite;
     width: 100%;  
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px black;
+    border:none;
+}
+
+a.button{
+    text-decoration: none;
+    text-shadow: none;
+    color: black;
+    font-weight: 200;
+    font-family: monospace; 
+    font-family: monospace;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
 }
