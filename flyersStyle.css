@@ -1,11 +1,13 @@
 body {
-    font-family: monospace;
-    font-size: 1.2em;
-    background-color: azure;
-    animation-name: colorfade;
-    animation-duration: 30s;
-    animation-iteration-count: infinite;
-  }
+  font-family: monospace;
+  font-size: 1.2em;
+  background-color: azure;
+  animation-name: colorfade;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  overflow: hidden;
+  background: #000
+}
 
   @keyframes colorfade {
     000% { background-color: azure; }
@@ -31,61 +33,102 @@ body {
     100% { background-color: azure; }
   }
 
-  .container{
+.container{
     display: flex;
     justify-content: space-between;
-
   }
 
-  @media only screen and (max-width: 1440px) {
-    .container{
-        zoom: 0.75; 
-        -moz-transform: scale(0.75); 
-        -moz-transform-origin: 0 0;
-    }
+@media only screen and (max-width: 1440px) {
+  .container {
+    zoom: 0.75;
+    -moz-transform: scale(0.75);
+    -moz-transform-origin: 0 0;
   }
+}
 
-  @media only screen and (max-width: 430px) {
+@media only screen and (max-width: 430px) {
       #flyerRight .flyerContainer{
           display: none;
       }
   }
 
-  .flyerContainer{
-    display: flex;
+.flyerContainer {
+  /* display: flex;
     align-items: center;
     margin-top: 1em;
     margin-left: 1em;
-    margin-right: 1em;
-  }
+    margin-right: 1em; */
+}
 
-  .creator{
-    display: inherit;   
+.flyerContainer video {
+  width: 100%;
+  height: auto
+}
+
+.creator {
+  display: inherit;
+  text-align: center;
+  align-self: center;
+  margin-top: 5em;
+}
+
+.creator p {
+  font-size: 0.8em;
+}
+
+a {
+  font-weight: 800;
+  text-decoration: underline;
+  color: rgb(197, 0, 0);
+}
+
+h5 {
+  font-size: 0.8rem
+}
+
+.doorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row .col-md-4:first-child {
+  padding-right: 35px;
+  -left: 0;
+  height: 100vh;
+}
+
+.row .col-md-4:last-child {
+  padding-right: 0;
+  padding-left: 35px;
+  height: 100vh;
+}
+
+/* span{
+    text-shadow: 2px 2px 0 violet;
+    font-family: monospace;
+    font-family: monospace;
     text-align: center;
-    align-self: center;
-    margin-top: 5em;
+    font-size: 1.5em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+  } */
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: azure;
+  animation-name: colorfade;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1px black;
+  border: none;
 }
 
-.creator p{
-    font-size: 0.8em;
-}
-
-a{
-    font-weight: 800;
-    text-decoration: underline;
-    color: rgb(197, 0, 0);
-  }
-
-.doorContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 800px;
-}
-
-.logo{
-    display: inherit;
-    margin-top: -70px;
+.logo {
+  display: inherit;
+  margin-top: 1em;
 }
 
 .buttonContainer{
@@ -95,32 +138,38 @@ a{
     margin-bottom: 90px;;
 }
 
-
-
-.button{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: azure;
-    animation-name: colorfade;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    width: 100%;  
-    border-radius: 10px;
-    box-shadow: 0 0 5px 1px black;
-    border:none;
+a.button {
+  text-decoration: none;
+  text-shadow: none;
+  color: black;
+  font-weight: 200;
+  font-family: monospace;
+  font-family: monospace;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
 }
 
-a.button{
-    text-decoration: none;
-    text-shadow: none;
-    color: black;
-    font-weight: 200;
-    font-family: monospace; 
-    font-family: monospace;
-    text-align: center;
-    font-size: 1.5em;
-    padding: 0.5em 0.5em 0.5em 0.5em;
+.footer {
+  margin-top: 1em;
+}
+
+/*--------- responsive styles ----------*/
+@media(max-height:767px) {
+  body {
+    overflow:scroll;
+  }
+  .row .col-md-4:first-child {
+    padding-right: 0;
+    -left: 0;
+    height: 100vh;
+  }
+
+  .row .col-md-4:last-child {
+    padding-right: 0;
+    padding-left: 0;
+    height: 100vh;
+  }
 }
 
 .footer{

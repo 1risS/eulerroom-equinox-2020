@@ -370,4 +370,10 @@ span {
     margin: 3em 2em 1em 2em;
     text-align: cebter;
   }
+
+  footer h5 {
+    margin: 1rem 1.5rem;
+    text-align: center;
+    font-size: .6rem;
+  }
 }
