@@ -6,7 +6,6 @@ body {
   animation-duration: 30s;
   animation-iteration-count: infinite;
   overflow: hidden;
-  background: #000
 }
 
   @keyframes colorfade {
@@ -61,15 +60,15 @@ body {
 }
 
 .flyerContainer video {
-  width: 100%;
-  height: auto
+  width: auto;
+  height: 100vh;
 }
 
 .creator {
   display: inherit;
   text-align: center;
   align-self: center;
-  margin-top: 5em;
+  margin-bottom: 5rem
 }
 
 .creator p {
@@ -93,15 +92,22 @@ h5 {
 }
 
 .row .col-md-4:first-child {
-  padding-right: 35px;
-  -left: 0;
+  /* padding-right: 30px; */
   height: 100vh;
+  width: auto;
+  overflow: hidden;
 }
 
 .row .col-md-4:last-child {
-  padding-right: 0;
-  padding-left: 35px;
+  /* padding-right: 0; */
+  /* padding-left: 30px; */
   height: 100vh;
+  width: auto;
+  overflow: hidden;
+}
+
+.row .col-md-4:last-child  video {
+  float: right;
 }
 
 /* span{
@@ -128,14 +134,12 @@ h5 {
 
 .logo {
   display: inherit;
-  margin-top: 1em;
 }
 
 .buttonContainer{
     display:inherit;
     width: 40%;
-    margin-top: -30px;
-    margin-bottom: 90px;;
+    margin-bottom: 3rem;
 }
 
 a.button {
@@ -151,7 +155,6 @@ a.button {
 }
 
 .footer {
-  margin-top: 1em;
 }
 
 /*--------- responsive styles ----------*/
@@ -159,6 +162,12 @@ a.button {
   body {
     overflow:scroll;
   }
+
+  .doorContainer {
+    overflow: hidden;
+    min-height: 100vh
+  }
+
   .row .col-md-4:first-child {
     padding-right: 0;
     -left: 0;
@@ -170,8 +179,17 @@ a.button {
     padding-left: 0;
     height: 100vh;
   }
-}
 
-.footer{
-  margin-top: 1em;
+  .creator {
+    display: inherit;
+    text-align: center;
+    align-self: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem
+  }
+
+  .footer {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
 }
