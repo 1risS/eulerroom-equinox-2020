@@ -9,96 +9,34 @@ body {
   background: #000
 }
 
-@keyframes colorfade {
-  000% {
-    background-color: azure;
+  @keyframes colorfade {
+    000% { background-color: azure; }
+    005% { background-color: beige; }
+    010% { background-color: aliceblue; }
+    015% { background-color: cornsilk; }
+    020% { background-color: floralwhite; }
+    025% { background-color: ghostwhite; }
+    030% { background-color: honeydew; }
+    035% { background-color: ivory; }
+    040% { background-color: lavenderblush; }
+    045% { background-color: lightcyan; }
+    050% { background-color: lightyellow; }
+    055% { background-color: linen; }
+    060% { background-color: mintcream; }
+    065% { background-color: mistyrose; }
+    070% { background-color: oldlace; }
+    075% { background-color: seashell; }
+    080% { background-color: snow; }
+    085% { background-color: whitesmoke; }
+    090% { background-color: beige; }
+    095% { background-color: aliceblue; }
+    100% { background-color: azure; }
   }
 
-  005% {
-    background-color: beige;
+.container{
+    display: flex;
+    justify-content: space-between;
   }
-
-  010% {
-    background-color: aliceblue;
-  }
-
-  015% {
-    background-color: cornsilk;
-  }
-
-  020% {
-    background-color: floralwhite;
-  }
-
-  025% {
-    background-color: ghostwhite;
-  }
-
-  030% {
-    background-color: honeydew;
-  }
-
-  035% {
-    background-color: ivory;
-  }
-
-  040% {
-    background-color: lavenderblush;
-  }
-
-  045% {
-    background-color: lightcyan;
-  }
-
-  050% {
-    background-color: lightyellow;
-  }
-
-  055% {
-    background-color: linen;
-  }
-
-  060% {
-    background-color: mintcream;
-  }
-
-  065% {
-    background-color: mistyrose;
-  }
-
-  070% {
-    background-color: oldlace;
-  }
-
-  075% {
-    background-color: seashell;
-  }
-
-  080% {
-    background-color: snow;
-  }
-
-  085% {
-    background-color: whitesmoke;
-  }
-
-  090% {
-    background-color: beige;
-  }
-
-  095% {
-    background-color: aliceblue;
-  }
-
-  100% {
-    background-color: azure;
-  }
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-}
 
 @media only screen and (max-width: 1440px) {
   .container {
@@ -107,6 +45,12 @@ body {
     -moz-transform-origin: 0 0;
   }
 }
+
+@media only screen and (max-width: 430px) {
+      #flyerRight .flyerContainer{
+          display: none;
+      }
+  }
 
 .flyerContainer {
   /* display: flex;
@@ -148,18 +92,6 @@ h5 {
   align-items: center;
 }
 
-.logo {
-  display: inherit;
-  margin-top: 1em;
-}
-
-.buttonContainer {
-  display: inherit;
-  width: 40%;
-  margin-top: -30px;
-  margin-bottom: 90px;
-}
-
 .row .col-md-4:first-child {
   padding-right: 35px;
   -left: 0;
@@ -194,6 +126,18 @@ h5 {
   border: none;
 }
 
+.logo {
+  display: inherit;
+  margin-top: 1em;
+}
+
+.buttonContainer{
+    display:inherit;
+    width: 40%;
+    margin-top: -30px;
+    margin-bottom: 90px;;
+}
+
 a.button {
   text-decoration: none;
   text-shadow: none;
@@ -226,4 +170,8 @@ a.button {
     padding-left: 0;
     height: 100vh;
   }
+}
+
+.footer{
+  margin-top: 1em;
 }

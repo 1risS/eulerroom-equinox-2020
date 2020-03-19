@@ -27,8 +27,8 @@
             <div class="buttonContainer" type="button">
                 <a class="button" href="schedule.html">SCHEDULE</a>
             </div>
-            <footer class="footer">
-              <h5 data-i18n="[html]footer.made-by">site made w ♥ by <a href="https://t.me/clic_livecoding" target="_blank"> CLiC (Colectivo de Live Coders)</a></h5>
+            <footer class="footer">          
+                  <h5 data-i18n="[html]footer.made-by">site made w ♥ by <a href="https://t.me/clic_livecoding" target="_blank"> CLiC (Colectivo de Live Coders)</a></h5>
             </footer>
         </div>
       <div id="flyerRight" class="col-12 col-md-4 flyerContainer">
@@ -38,59 +38,34 @@
         <img src="" class="img-fluid"/>
       </div>
     </div>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" charset="utf-8"></script>
-  <script type="text/javascript">
-    const flyers = [{
-        "src": "flyers/francesco/EulerRoom_Equinoxx_2020.mp4",
-        "type": "video",
-        "creator": "Nesso",
-        "url": "https://www.instagram.com/nesso.official/"
-      },
-      {
-        "src": "flyers/exploratorio/exploratorioFlyer.jpg",
-        "type": "image",
-        "creator": "exploratorio",
-        "url": " https://www.instagram.com/exploratoriomed/"
-      },
-      {
-        "src": "flyers/molly/MollyEastMovingPosterFinal.mp4",
-        "type": "video",
-        "creator": "Molly East",
-        "url": "https://www.instagram.com/mol_desings"
-      },
-      {
-        "src": "flyers/rachel/Fox_Rachel_Moving_Poster.mp4",
-        "type": "video",
-        "creator": "Rachel Fox",
-        "url": "https://www.instagram.com/Rachelfox_designs/"
-      },
-      {
-        "src": "flyers/shukzDesign/EulerRoom_ShukzDesign.mp4",
-        "type": "video",
-        "creator": "Dhruv Shukla",
-        "url": "https://www.instagram.com/shukzdesign/"
-      },
-      {
-        "src": "flyers/lucyPhillips/EE2020_LPHILLIPS.mp4",
-        "type": "video",
-        "creator": "Lucy Phillips",
-        "url": "https://www.instagram.com/lucyphillips.design/"
-      },
-    ];
-
-    const maxTime = 3000;
-
-    $(() => {
-      let cur = 0;
-      console.log("First flyer:", flyers[cur]);
-
-      const videos = $(".flyerContainer video");
-      const images = $(".flyerContainer img").hide();
-
-      const changeFlyer = () => {
-        cur = (cur + 1) % flyers.length;
-        console.log("Load next flyer:", flyers[cur]);
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      const flyers = [
+        { "src": "flyers/francesco/EulerRoom_Equinoxx_2020.mp4", "type": "video", "creator": "Nesso", "url":"https://www.instagram.com/nesso.official/"},
+        { "src": "flyers/exploratorio/exploratorioFlyer.jpg", "type": "image", "creator":"exploratorio", "url":" https://www.instagram.com/exploratoriomed/" },
+        { "src": "flyers/djalgoritmo/video-equinoxx-2020.mp4", "type": "video", "creator": "djalgoritmo", "url": "https://www.instagram.com/djalgoritmo" },
+        { "src": "flyers/lucyPhillips/EE2020_LPHILLIPS.mp4", "type": "video", "creator": "Lucy Phillips", "url":"https://www.instagram.com/lucyphillips.design/"},
+        { "src": "flyers/molly/MollyEastMovingPosterFinal.mp4", "type": "video", "creator": "Molly  East", "url":"https://www.instagram.com/mol.designs/"},
+        { "src": "flyers/flordefuega/ee2020_flordefuega.jpg", "type": "image", "creator": "flordefuega", "url":"https://www.flordefuego.github.io/"},  
+        { "src": "flyers/rachel/Fox_Rachel_Moving_Poster.mp4", "type": "video", "creator": "Rachel Fox", "url":"https://www.instagram.com/Rachelfox_designs/"},
+        { "src": "flyers/shukzDesign/EulerRoom_ShukzDesign.mp4", "type": "video", "creator": "Dhruv Shukla", "url":"https://www.instagram.com/shukzdesign/"},
+        { "src": "flyers/toniForce/force_Toni_MovingPoster.mp4", "type": "video", "creator": "Toni Force", "url":"https://www.instagram.com/spellbooks_and_sketches/"},  
+ 
+      ];
+  
+      const maxTime = 8000;
+  
+      $(() => {
+        let cur = 0;
+        console.log("First flyer:", flyers[cur]);
+  
+        const videos = $(".flyerContainer video");
+        const images = $(".flyerContainer img").hide();
+  
+        const changeFlyer = () => {
+          cur = (cur + 1) % flyers.length;
+          console.log("Load next flyer:", flyers[cur]);
 
         $(".doorContainer .creator a")
           .attr("href", flyers[cur]['url'])

@@ -14,7 +14,7 @@
   },
   "terms": {
     "title": "¿Programación en vivo? ¿TOPLAP?",
-    "livecoding": "El <b>live coding</b> es una técnica artística en la cual se genera y modifica tanto música como visuales escribiendo lineas de código en diferentes lenguajes de programación. Dando instrucciones a las tarjetas gráficas y de sonido de las computadoras en las que se ejecutan los programas. Puedes ver los lenguajes existentes para tal fin <a href=\"https://github.com/toplap/awesome-livecoding\" target=\"blank\">acá</a>.",
+    "livecoding": "El <b>live coding</b> es una técnica artística en la cual se genera y modifica tanto música como visuales escribiendo lineas de código en diferentes lenguajes de programación, dando instrucciones a las tarjetas gráficas y de sonido de las computadoras en las que se ejecutan los programas. Puedes ver los lenguajes existentes para tal fin <a href=\"https://github.com/toplap/awesome-livecoding\" target=\"blank\">acá</a>",
     "toplap": "<b>TOPLAP</b> es la sigla para \"Temporary Organisation for the Proliferation of Live Art Programming\" (Organización temporal para la proliferación del arte de programar en vivo) o \"Transdimensional Organisation for the Parsimony of Live Art Programming\" (Organización transdimensional para la parsimonia en el arte de programar en vivo) pero si deseas más información es mejor ir <a href=\"https://toplap.org/about/\" target=\"blank\">acá</a>."
   },
   "watch": {
@@ -24,7 +24,7 @@
   "calls": {
     "h2": "CONVOCATORIA PARA CONTRIBUIR Y REALIZAR EVENTOS",
     "p1": "El equinoccio es el día en el que el mundo entero tiene 12 horas de luz solar. El equinoccio de marzo marca el inicio del otoño para el hemisferio sur y la primavera para el hemisferio norte.",
-    "p2": "Para el equinoccio de marco de 2020 celebraremos los 16 años de la comunidad de livecoding TOPLAP con una transmisión continua desde el 19 al 22 de marzo.",
+    "p2": "Para el equinoccio de 2020 celebraremos los 16 años de la comunidad de livecoding TOPLAP con una transmisión continua desde el 19 al 22 de marzo.",
     "p3": "Si deseas contribuir con una trasmisión puedes hacerlo de manera individual desde tu casa/estudio/lugar de trabajo/café etc. o desde uno de los eventos organizados.",
     "h3": "Convocatoria abierta para:",
     "local-events": {
