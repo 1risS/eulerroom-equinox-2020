@@ -12,76 +12,139 @@ h1, h2, h3, h4 {
 }
 
 @keyframes colorfade {
-  000% { background-color: azure; }
-  005% { background-color: beige; }
-  010% { background-color: aliceblue; }
-  015% { background-color: cornsilk; }
-  020% { background-color: floralwhite; }
-  025% { background-color: ghostwhite; }
-  030% { background-color: honeydew; }
-  035% { background-color: ivory; }
-  040% { background-color: lavenderblush; }
-  045% { background-color: lightcyan; }
-  050% { background-color: lightyellow; }
-  055% { background-color: linen; }
-  060% { background-color: mintcream; }
-  065% { background-color: mistyrose; }
-  070% { background-color: oldlace; }
-  075% { background-color: seashell; }
-  080% { background-color: snow; }
-  085% { background-color: whitesmoke; }
-  090% { background-color: beige; }
-  095% { background-color: aliceblue; }
-  100% { background-color: azure; }
+  000% {
+    background-color: azure;
+  }
+
+  005% {
+    background-color: beige;
+  }
+
+  010% {
+    background-color: aliceblue;
+  }
+
+  015% {
+    background-color: cornsilk;
+  }
+
+  020% {
+    background-color: floralwhite;
+  }
+
+  025% {
+    background-color: ghostwhite;
+  }
+
+  030% {
+    background-color: honeydew;
+  }
+
+  035% {
+    background-color: ivory;
+  }
+
+  040% {
+    background-color: lavenderblush;
+  }
+
+  045% {
+    background-color: lightcyan;
+  }
+
+  050% {
+    background-color: lightyellow;
+  }
+
+  055% {
+    background-color: linen;
+  }
+
+  060% {
+    background-color: mintcream;
+  }
+
+  065% {
+    background-color: mistyrose;
+  }
+
+  070% {
+    background-color: oldlace;
+  }
+
+  075% {
+    background-color: seashell;
+  }
+
+  080% {
+    background-color: snow;
+  }
+
+  085% {
+    background-color: whitesmoke;
+  }
+
+  090% {
+    background-color: beige;
+  }
+
+  095% {
+    background-color: aliceblue;
+  }
+
+  100% {
+    background-color: azure;
+  }
 }
 
-.titCont{
+.titCont {
   width: 35%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-left: 35%;
   margin-top: 3em;
-	text-align: center;
+  text-align: center;
 }
 
-.titCont p{
+.titCont p {
   margin-top: 0em;
 }
 
-h1{
+h1 {
   font-size: 2.5em;
 }
 
-article{
+article {
   margin: 0.5em 2em 0.5em 2em;
 }
 
-a{
+a {
   font-weight: 800;
   text-decoration: underline;
   color: rgb(197, 0, 0);
 }
 
-.wilc{
+.wilc {
   font-weight: 900;
   font-size: 2em;
   margin-left: 1em;
 }
-.lctl{
+
+.lctl {
   margin: 1.5em 2em 2em 4%;
   line-height: 1.1em;
 }
 
-h2{
+h2 {
   margin-bottom: 1.5em;
 }
 
-p{
+p {
   margin-left: 2.5%;
 }
 
-.call{
+.call {
   margin: 2em 0 2.5em 0;
 }
 
@@ -90,20 +153,20 @@ p{
   font-size: 1em;
 }
 
-ul{
+ul {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   margin: 1.5em 0 2em 3%;
 }
 
-.container{
+.container {
   flex-direction: row;
   display: flex;
   justify-content: flex-start;
   margin: 0.5em 0 0.5em 0;
 }
 
-.tit{
+.tit {
   width: 20%;
   font-weight: 900;
   text-decoration: underline;
@@ -112,26 +175,28 @@ ul{
   line-height: 0.8em;
 }
 
-.cont{
+.cont {
   display: none;
 }
 
-.contShow{
+.contShow {
   display: inline-block;
   font-family: monospace;
 }
 
-.form{
+.form {
   margin-left: 3%;
-  margin-bottom: 2em;;
+  margin-bottom: 2em;
+  ;
 }
 
-footer{
+footer {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-span{
+
+span {
   font-size: 0.8em;
   margin: 4em 2em 2em 2em;
 }
@@ -142,6 +207,7 @@ span{
   width: 160px;
   float: right;
 }
+
 .language-list ul {
   display: flex;
   flex-direction: row;
@@ -152,6 +218,7 @@ span{
   margin-left: -1px;
   list-style: none;
 }
+
 .language-list li {
   flex-grow: 1;
   flex-basis: auto;
@@ -160,80 +227,153 @@ span{
   text-align: center;
   border-left: 2px solid #ccc;
 }
+
 .language-list li.selected {
   background-color: #ddd;
 }
+
 .language-list li:last-child {
   border-right: 2px solid #ccc;
 }
 
-.ocContainer{
+.ocContainer {
   margin: 3em 5em 5em 5em;
   padding: 1.5em 2em 3em 1em;
-  border-style: double;  
+  border-style: double;
   animation-name: colorfade;
   animation-duration: 15s;
   animation-iteration-count: infinite;
 }
 
-.ocContainer .time{
+.ocContainer .time {
   text-align: center;
   font-weight: 900;
   font-size: 1.5em;
 }
 
-.ocContainer .time a{
+.ocContainer .time a {
   font-weight: 800;
   text-decoration: underline;
   color: rgb(197, 0, 0);
 }
 
-.ocContainer a{
+.ocContainer a {
   font-weight: 800;
   text-decoration: underline;
   color: rgb(197, 0, 0);
 }
 
-.ocContainer .location{
+.ocContainer .location {
   text-align: center;
   margin: 0.3em 0.3em 1em 0.3em;
 }
 
-.tit1{
+.tit1 {
   font-size: 1.5em;
   text-align: center;
   margin: 0.9em 1em 1em 1em;
 }
 
-.tit2{
+.tit2 {
   font-size: 1em;
   text-align: center;
   margin-bottom: 2.5em;
   margin-top: 2em;
 }
 
-.tit3{
+.tit3 {
   font-size: 1em;
   margin-left: 0.7em;
 }
 
-.ocContainer .desc1{
+.ocContainer .desc1 {
   font-size: 0.8em;
 }
 
-.ocContainer .participant{
+.ocContainer .participant {
   font-size: 0.7em;
   margin-left: 1.3em;
 }
 
-.ocContainer  p{
+.ocContainer p {
   font-size: 0.7em;
 }
 
-.notconfirmed{
+.notconfirmed {
   display: none;
 }
 
-.partContainer{
+.partContainer {
   display: none
+}
+
+/*---------- rafrobeat ----------*/
+@media(max-width:767px) {
+
+  html,
+  body {
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+    position: absolute;
+  }
+
+  .lctl {
+    margin: 0 2em;
+    line-height: 1.3em;
+  }
+
+  .titCont {
+    width: 90%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    margin-bottom: 1em;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .wilc {
+    font-weight: 900;
+    font-size: 1.7em;
+    margin: 1em;
+  }
+
+  article {
+    margin: 0.5em;
+  }
+
+  article td {
+    font-size: 12px;
+  }
+
+  article a {
+    font-size: 13px;
+  }
+
+  article td.name, td.desc {
+    font-size: 12px;
+  }
+
+  footer span {
+    font-size: 0.8em;
+    margin: 3em 2em 1em 2em;
+    text-align: cebter;
+  }
+
+  footer h5 {
+    margin: 1rem 1.5rem;
+    text-align: center;
+    font-size: .6rem;
+  }
 }
