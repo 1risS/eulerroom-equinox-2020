@@ -68,7 +68,7 @@ body {
   display: inherit;
   text-align: center;
   align-self: center;
-  margin-top: 5em;
+  margin-bottom: 5rem
 }
 
 .creator p {
@@ -185,6 +185,7 @@ a.button {
     text-align: center;
     align-self: center;
     margin-top: 2rem;
+    margin-bottom: 3rem
   }
 
   .footer {
