@@ -72,7 +72,7 @@ body {
 }
 
 .creator p {
-  font-size: 0.8em;
+  font-size: 0.5em;
 }
 
 a {
@@ -82,13 +82,15 @@ a {
 }
 
 h5 {
-  font-size: 0.8rem
+  font-size: 0.6rem
 }
 
 .doorContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 700px;
+  margin: 0!important;
 }
 
 .row .col-md-4:first-child {
@@ -134,12 +136,13 @@ h5 {
 
 .logo {
   display: inherit;
+  margin: 6.5em 0em 9em 0em;
 }
 
 .buttonContainer{
     display:inherit;
     width: 40%;
-    margin-bottom: 3rem;
+
 }
 
 a.button {
@@ -155,6 +158,8 @@ a.button {
 }
 
 .footer {
+  margin: 1em 1em 1em 1em;
+
 }
 
 /*--------- responsive styles ----------*/
