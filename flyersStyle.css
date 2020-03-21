@@ -82,15 +82,12 @@ a {
 }
 
 h5 {
-  font-size: 0.6rem
+  font-size: 0.6rem;
+  text-align: center;
 }
 
 .doorContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 700px;
-  margin: 0!important;
+
 }
 
 .row .col-md-4:first-child {
@@ -120,6 +117,11 @@ h5 {
     font-size: 1.5em;
     padding: 0.5em 0.5em 0.5em 0.5em;
   } */
+
+.buttonContainer {
+  margin-top: 1rem;
+}
+
 .button {
   display: flex;
   flex-direction: column;
@@ -135,14 +137,15 @@ h5 {
 }
 
 .logo {
-  display: inherit;
-  margin: 6.5em 0em 9em 0em;
+  display: block;
+  margin: 5em 0em;
 }
 
 .buttonContainer{
-    display:inherit;
-    width: 40%;
-
+  display: block;
+  width: 100%;
+  position: absolute;
+  text-align: center;
 }
 
 a.button {
@@ -153,13 +156,14 @@ a.button {
   font-family: monospace;
   font-family: monospace;
   text-align: center;
-  font-size: 1.5em;
-  padding: 0.5em 0.5em 0.5em 0.5em;
+  font-size: 1.4em;
+  padding: 0.2em;
+  width: 40%;
+  margin: 0 auto;
 }
 
 .footer {
-  margin: 1em 1em 1em 1em;
-
+  margin: 0
 }
 
 /*--------- responsive styles ----------*/
@@ -189,12 +193,39 @@ a.button {
     display: inherit;
     text-align: center;
     align-self: center;
-    margin-top: 2rem;
-    margin-bottom: 3rem
+    margin-top: 1rem;
+    margin-bottom: 1rem
   }
 
+  .buttonContainer {
+      width: 100%;
+      bottom: 2.5rem
+  }
+
+  a.button {
+      font-size: 1.2em;
+      padding: 0.2em;
+      width: 60%;
+  }
+
+  .logo {
+    margin: 5em 0em;
+}
+
   .footer {
-    margin-top: 1em;
+    margin-top: 3em;
     margin-bottom: 1em;
+  }
+}
+
+@media(min-width:1400px) {
+  .logo {
+    margin: 8em 0em;
+  }
+
+  a.button {
+    width: 40%;
+    padding: 0.5em;
+    font-size: 1.5em
   }
 }
